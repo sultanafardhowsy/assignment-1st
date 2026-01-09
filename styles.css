@@ -46,7 +46,7 @@ header{
   margin: o;
    
   background-image: url(assets/hero-bg.png) ;
-  width: 1600px;
+  width: 1400px;
   height: 674px;
   background-repeat: no-repeat;
 }
@@ -86,4 +86,11 @@ header{
   background-color: #F95555;
   
 
+}
+#brain{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
