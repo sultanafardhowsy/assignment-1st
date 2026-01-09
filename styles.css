@@ -44,10 +44,46 @@ header{
 }
 #banner{
   margin: o;
-  width: 2042px;
-  height: 1363px;
-  background-image: url(Sections/Banner.png) ;
+   
+  background-image: url(assets/hero-bg.png) ;
+  width: 1600px;
+  height: 674px;
   background-repeat: no-repeat;
 }
 
+  #notes{
+    margin: 0;
+    padding: 60px;
+  }
   
+  }
+ #notes .notes-container{
+    width: 100%;
+ justify-content: center;
+    margin: 0 auto;
+    padding: 20px;
+   
+
+  }
+#notes .section-heading{
+  margin: 0 auto;
+  align-self: center;
+}
+
+#notes .notes-container .notes-box{
+  display: flex;
+  gap: 24px;
+}
+
+   .notes-card{
+  padding: 20px;
+  max-width: 267px;
+  text-align: center;
+  background-color: #ffffff;
+
+}
+.notes-card img {
+  background-color: #F95555;
+  
+
+}
