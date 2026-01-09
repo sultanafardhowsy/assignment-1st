@@ -22,7 +22,7 @@ nav .menu {
   list-style-type: none;
   gap: 32px;
   align-items: center;
-  padding-right: 630px;
+  padding-right:  630px;
   text-decoration: none;
   
 }
@@ -41,6 +41,13 @@ nav .menu {
 header{
   background-color: #ffffff;
  
+}
+#banner{
+  margin: o;
+  width: 2042px;
+  height: 1363px;
+  background-image: url(Sections/Banner.png) ;
+  background-repeat: no-repeat;
 }
 
   
