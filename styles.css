@@ -2,16 +2,43 @@
     margin :0;
     padding:0;
     box-sizing: border-box;
-}
+
+    
+   }
+   
 
 nav{
-  width: 100%;
-  margin: 0 auto;
+  width: 71%;
+
+  margin: 0 ;
+  padding: 0;
   display: flex;
   justify-content: space-between;}
+  #banner{
+    color: #ffffff;
+    text-align: center;
+    margin: auto;
+    padding-top: 500px;
+    gap: 200px;
+    
+  }
+   .h3{
+    text-decoration-color: #30b868;
+
+  }
+  .break-word{
+    width: 100px;
+    border: 1px;
+    word-break: break-all;
+    align-items: center;
+  }
+  .color-green{
+       color:  #30b868;
+
+  }
   
 .logo img{
-  align: left;
+  align-items: left;
   padding-left: 120px;
   margin-top: 16px;
   margin-bottom: 16px;
@@ -22,33 +49,48 @@ nav .menu {
   list-style-type: none;
   gap: 32px;
   align-items: center;
-  padding-right:  630px;
+  
   text-decoration: none;
   
 }
 
 .btn{
-  background-color: green;
-  border: none;
+  background-color: #30b868;;
+  border: 2px;
+  border-color: none;
   border-radius: 5px;
-  font-size: 14;
-  font-weight: bold;
+  font-size: 15px;
+margin-top: 20px;
   color: #ffffff;
-  align-items: right;
-  float: right;
+ align-items: center;
+  width: 200px;
+  height: 40px;
+ 
 }
-
+.btn2{
+  background-color: rgb(9, 8, 8);
+  color: #ffffff;
+  font: 15px;
+  border: #ffffff;
+  width: 200px;
+  height: 40px;
+  background-image: url(E:\projects\assignment-1st\assets);
+  
+}
 header{
   background-color: #ffffff;
  
 }
 #banner{
-  margin: o;
-   
+  margin: 0;
+   padding: 0;
   background-image: url(assets/hero-bg.png) ;
-  width: 1400px;
+  width: 1600px;
   height: 674px;
   background-repeat: no-repeat;
+  gap: 40px;
+  
+ 
 }
 
   #notes{
@@ -56,7 +98,7 @@ header{
     padding: 60px;
   }
   
-  }
+  
  #notes .notes-container{
     width: 100%;
  justify-content: center;
@@ -93,4 +135,10 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position:absolute;
+}
+#brain .brain-container{
+  margin: 0;
+  padding: 0;
+
 }
